@@ -1,0 +1,16 @@
+{
+  "name": "check-opg",
+  "description": "check OGP path and export results to CSV",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yukishiba/check-ogp.git"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
